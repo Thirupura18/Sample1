@@ -15,11 +15,13 @@ public static void print(char[] a)
 {
 	for(int i=0;i<a.length;i++)
 	System.out.println(a[i]);
+	System.out.println("Good A");
 }
 public static void print(Integer[] a)
 {
 for(Integer e:a)
 System.out.println(e);
+System.out.println("Yes we are Iterating ");
 }
 
 
